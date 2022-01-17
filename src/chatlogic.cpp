@@ -11,11 +11,14 @@
 #include "chatbot.h"
 #include "chatlogic.h"
 
+using namespace std;
 
 ChatLogic::ChatLogic()
 {
     //// STUDENT CODE
     ////
+
+    cout << "ChatLogic Constructor" << endl;
 
     // create instance of chatbot
     _chatBot = new ChatBot("../images/chatbot.png");
@@ -32,6 +35,7 @@ ChatLogic::~ChatLogic()
     //// STUDENT CODE
     ////
 
+    cout << "ChatLogic Destructor" << endl;
     // delete chatbot instance
     delete _chatBot;
 
