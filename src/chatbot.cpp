@@ -92,7 +92,7 @@ ChatBot::ChatBot(ChatBot &&source) {
 
 // Move Operator 
 ChatBot &ChatBot::operator=(ChatBot &&source) {
-    cout << "ChatBot Move Operator" << endl;
+    cout << "ChatBot Move Assignment Operator" << endl;
 
     if (this == &source) {
         return *this; 

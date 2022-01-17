@@ -18,7 +18,7 @@ ChatLogic::ChatLogic()
     //// STUDENT CODE
     ////
 
-    cout << "ChatLogic Constructor" << endl;
+    // cout << "ChatLogic Constructor" << endl;
     /*
     // create instance of chatbot
     _chatBot = new ChatBot("../images/chatbot.png");
@@ -35,7 +35,7 @@ ChatLogic::~ChatLogic()
     //// STUDENT CODE
     ////
 
-    cout << "ChatLogic Destructor" << endl;
+    // cout << "ChatLogic Destructor" << endl;
     /*
     // delete chatbot instance
     delete _chatBot;
